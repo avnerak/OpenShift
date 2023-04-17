@@ -1,6 +1,7 @@
 FROM registry.access.redhat.com/ubi8/nodejs-16
 
-# Create app directory
+# Creacd yaml
+touch deployment.yaml route.yaml service.yamlte app directory
 WORKDIR /tmp
 
 USER root
